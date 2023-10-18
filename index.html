@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Active Slide - fullPage.js</title>
+    <link rel="stylesheet" type="text/css" href="/scss/examples.css" />
+    <link rel="stylesheet" type="text/css" href="/scss/me.css" />
+    <script src="https://kit.fontawesome.com/273b657551.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <ul id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">Project</a></li>
+        <li data-menuanchor="4thpage"><a href="#4thpage">Update</a></li>
+        <li data-menuanchor="lastPage"><a href="#lastPage">Contract</a></li>
+    </ul>
+
+
+    <div id="fullpage">
+        <div class="section section1 active" id="section1">
+            <div class="grid">
+                <div class="Remove_image">
+                    <img src="/img/remove5.png" alt="">
+                </div>
+                <div class="item item_1">
+                    <div class="item_content item_content_1 ">
+                        <div class="item_content_1_arrow">
+                        </div>
+                        <p class="nowrap" style="font-size: 1.6rem">Hi! My name is</p>
+                        <h1 style="font-size: 4rem;color: rgb(255, 84, 4);">QUAN</h1>
+                        <p class="nowrap" style="font-size: 1.5rem">I'm AI-Engineer</p>
+                    </div>
+                </div>
+                <div class="item item_2 ">
+                    <div class=" item_content_2_1">
+                        <h3>HAPPY MID-AUTUMN</h3>
+                        <h3>FESTIVAL</h1>
+                    </div>
+                    <div class="item_content item_content_2_2">
+
+                        <div class="clock">
+                            <div class="clock__text">
+                                <div class="clock__text__sub1" style="font-size:2.2rem ;flex: 1;">
+                                    <span class="clock__text-hour" id="text-hour"></span>
+                                    <span class="clock__text-minutes" id="text-minutes"></span>
+                                </div>
+
+                                <div class="clock__text__sub2">
+                                    <span class="clock__text-ampm" id="text-ampm"></span>
+                                    <span class="clock__text-ampm" id="text-seconds"></span>
+                                </div>
+                            </div>
+                            <span
+                                style="font-size:1rem;padding:4px 0;height: fit-content;width: 100%;background-color: rgb(255, 84, 4);margin-top: 0.4rem;border-radius: 40px">
+                                <p class="nowrap">MY CV<i class="fa-solid fa-download"></i></p>
+                            </span>
+                            <div class="clock__date">
+                                <span class="clock__day-week" style="font-size: 1rem;" id="date-day-week"></span>
+
+                                <div class="clock__date">
+                                    <div class="nowrap">
+                                        <span class="clock__month" id="date-month"></span>
+                                        <span class="clock__day" id="date-day"></span>
+                                    </div>
+                                    <span class="clock__year" style="font-size: 2rem;" id="date-year"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item_3 ">
+                    <div class=" item_content_3_1">
+                        <p class="nowrap">TAKE A LOOK AT</p>
+                        <p class="nowrap" style="font-size: 1.rem;color: rgb(255, 84, 4);">MY PROJECT</p>
+                        <p>IT'S REALLY FASCINATING</p>
+
+                    </div>
+                    <div class="item_content_3_2">
+                        <p class="nowrap" style="font-size: 1.2rem;">LET'S GO</p>
+                    </div>
+                </div>
+                <div class="item item_4 ">
+                    <div class="item_content_4">
+                        <div class="item_content_4_child">
+                            <h5 style="margin-left: 0.8rem;">Contact me here:</h5>
+                            <div class="wrapper">
+                                <a href="#" class="icon-container facebook">
+                                    <i class="icon fab fa-facebook -f"></i>
+                                </a>
+                                <a href="#" class="icon-container linkedin">
+                                    <i class="icon fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="icon-container github">
+                                    <i class="icon fab fa-github"></i>
+                                </a>
+                                <a href="#" class="icon-container twitter">
+                                    <i class="icon fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="#" class="icon-container youtube">
+                                    <i class="icon fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- <svg viewBox="-0.01 0.3 136.1 116" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                <g transform="translate(-82.01104-92.13092)">
+                    <g transform="matrix(.774651 0 0 0.89702 33.802446-61.237565)">
+                        <defs>
+                            <clipPath clipPathUnits="objectBoundingBox" id="div11">
+                                <path d="M184.1184,170.97655c27.842538,0,11.624999,24.56495,20.347339,30.33821s33.253951-5.33021,33.297941,16.78239c0,21.24062,0,53.91755,0,70.04562c0,5.03028.20581,6.15172-2.1832,9.13798s-9.25743,2.7132-9.25743,2.7132h-150.69421c0,0-6.76287.23592-9.82976-1.88616s-3.2289-5.25393-3.3028-8.257c-.63657-25.86884.08067-83.90708.0739-103.81014-.00116-3.39832.50394-15.0641,15.79751-15.0641c0,0,0,0,0,0s.00001,0,.00001,0-.00001,0-.00001,0s.00001,0,.00001,0c11.61256,0,2.79503,0,0,0c0,0,0,0,0,0c27.8661,0,106.02553,0,105.7507,0v0Z" transform="translate(0 0.519305)" fill="#fff" stroke="#3f5787" stroke-width="0.6"/>
+                            </clipPath>
+                        </defs>
+                    </g>
+                </g>
+            </svg> -->
+            </div>
+        </div>
+        <div class="section section2" id="section2">
+            <h1>Section 2</h1>
+        </div>
+        <div class="section section3" id="section3">
+            <h1>Section 3</h1>
+        </div>
+        <div class="section section4" id="section4">
+            <div class="slide" id="slide1">
+                <div class="intro">
+                    <h1>Slide 4.1</h1>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="intro">
+                    <h1>Slide 4.2</h1>
+                    <p>
+                        We are using the class `active` on this section and in this particular horizontal slide. This
+                        way it will appear on the viewport on page load, instead of the 1st section 1st slide.
+                    </p>
+                    <p>You can apply the same logic to horizontal slides</p>
+                </div>
+            </div>
+            <div class="slide" id="slide3">
+                <h1>Slide 4.3</h1>
+            </div>
+            <div class="slide" id="slide4">
+                <h1>Slide 4.3</h1>
+            </div>
+
+        </div>
+        <div class="section section5" id="section5">
+
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="/js/fullpage.min.js"></script>
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+            menu: '#menu',
+            easingcss3: 'cubic-bezier(0.7, 0, 0.58, 1)',
+            loopHorizontal: true,
+            slidesNavigation: true,
+            scrollingSpeed: 1100,
+            credits: { enabled: false },
+            fadingEffect: false
+
+
+        });
+    </script>
+
+    <script>
+
+
+        /*=============== TIME AND DATE TEXT ===============*/
+        const dateDayWeek = document.getElementById('date-day-week'),
+            dateMonth = document.getElementById('date-month'),
+            dateDay = document.getElementById('date-day'),
+            dateYear = document.getElementById('date-year'),
+            textHour = document.getElementById('text-hour'),
+            textMinutes = document.getElementById('text-minutes'),
+            textSeconds = document.getElementById('text-seconds'),
+            textAmPm = document.getElementById('text-ampm')
+
+        const clockText = () => {
+            // We get the Date object
+            let date = new Date()
+
+            // We get the time and date
+            let dayWeek = date.getDay(),
+                month = date.getMonth(),
+                day = date.getDate(),
+                year = date.getFullYear(),
+                hh = date.getHours(),
+                mm = date.getMinutes(),
+                sc = date.getSeconds(),
+                ampm
+
+            // We get the days of the week and the months. (First day of the week Sunday)
+            let daysWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+            let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+            // We add the corresponding dates
+            dateDayWeek.innerHTML = `${daysWeek[dayWeek]}`
+            dateMonth.innerHTML = `${months[month]}`
+            dateDay.innerHTML = `${day}`
+            dateYear.innerHTML = year
+
+            // If hours is greater than 12 (afternoon), we subtract -12, so that it starts at 1 (afternoon)
+            if (hh >= 12) {
+                hh = hh - 12
+                ampm = 'PM'
+            } else {
+                ampm = 'AM'
+            }
+
+            textAmPm.innerHTML = ampm
+
+            // When it is 0 hours (early morning), we tell it to change to 12 hours
+            if (hh == 0) { hh = 12 }
+
+            // If hours is less than 10, add a 0 (01,02,03...09)
+            if (hh < 10) { hh = `0${hh}` }
+
+            textHour.innerHTML = `${hh}:`
+
+            // If minutes is less than 10, add a 0 (01,02,03...09)
+            if (mm < 10) { mm = `0${mm}` }
+
+            textMinutes.innerHTML = `${mm}:`
+
+            if (sc < 10) { sc = `0${sc}` }
+            textSeconds.innerHTML = sc
+        }
+        setInterval(clockText, 1000) // (Updates every 1s) 1000 = 1s
+    </script>
+
+
+
+    <script src="https://kit.fontawesome.com/273b657551.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        const list = document.querySelectorAll(".list");
+
+        function activeLink() {
+            list.forEach((item) => item.classList.remove("active"));
+            this.classList.add("active");
+        }
+        list.forEach((item) => item.addEventListener("click", activeLink));
+
+    </script>
+</body>
+
+</html>
